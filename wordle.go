@@ -10,6 +10,7 @@ func main() {
 	var text_from_input string
 
 	for attempts < 3 {
+		fmt.Print("Guess a 5 letter word: ")
 		fmt.Scan(&text_from_input)
 
 		if len(text_from_input) != len(answer) {
